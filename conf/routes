@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index
+
+POST    /rides                      @controllers.Rides.create
+#GET     /rides/:id                  @controllers.Rides.getById(id: Int)
+GET     /rides/count                @controllers.Rides.getRideCount(t1: Int ?= 0, t2: Int ?= 0)
+GET     /clients/count              @controllers.Rides.getClientCount(t1: Int ?= 0, t2: Int ?= 0)
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

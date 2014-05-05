@@ -1,0 +1,3 @@
+{ "clientId": "46859bfe-a656-1119-e805-75e72b599f06", "driverId": "07a8cb65-c2e5-7537-0d1f-0606a0944b3c", "startTime": 1398899582871, "lat":37.386339, "lon":-122.085823, "fare":20.0, "distance":40, "rating":2 }
+{ "clientId": "46859bfe-a656-1119-e805-75e72b599f07", "driverId": "07a8cb65-c2e5-7537-0d1f-0606a0944b3c", "startTime": 1398899692871, "lat":37.386339, "lon":-122.085823, "fare":20.0, "distance":40, "rating":2 }
+{ "clientId": "46859bfe-a656-1119-e805-75e72b599f08", "driverId": "07a8cb65-c2e5-7537-0d1f-0606a0944b3c", "startTime": 1398899782871, "lat":37.386339, "lon":-122.085823, "fare":20.0, "distance":40, "rating":2 }
