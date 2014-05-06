@@ -82,8 +82,8 @@ class Rides
     Ok(Json.obj("count" -> rideService.getAvgFare(bounds, range)))
   }
 
-//  def getMilesPerClient() = Action {
-//    Ok(Json.toJson(rideService.getMilesPerClient()))
-//  }
+  def getMilesPerClient() = Action {
+    Ok(Json.toJson(rideService.getMilesPerClient()))
+  }
 
 }
